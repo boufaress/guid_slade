@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">firstappguide</string>
+    <string name="splash_loading">Loading ...</string>
+    <string name="splash_info"></string>
+
+    <string name="guide1">Guide1</string>
+    <string name="guide2">Guide2</string>
+    <string name="guide3">Guide3</string>
+    <string name="guide4">GUIDE4</string>
+    <string name="guide5">GUIDE5</string>
+    <string name="guide6">GUIDE6</string>
+
+    <string name="title_1">This text for guide information 1 This text for guide information 1</string>
+    <string name="text_data1">à effectuer peut être gérée  à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer par plusieurs applications et que l\'utilisateur peut préférer une appl</string>
+
+    <string name="title_2">This text for guide information 2</string>
+    <string name="text_data2">à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer une appl à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer une appl à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer une appl à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer une appl</string>
+
+    <string name="title_3">This text for guide information 3</string>
+    <string name="text_data3">à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer une appl à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer une appl</string>
+
+    <string name="title_4">This text for guide information 4</string>
+    <string name="text_data4">à effectuer peut être à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer gérée par plusieurs applications et que l\'utilisateur peut préférer une appl à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer une applà effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer une appl</string>
+
+    <string name="title_5">This text for guide information 5</string>
+    <string name="text_data5">à effectuer peut être gérée par plusieurs à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer applications et que l\'utilisateur peut préférer une appl</string>
+
+    <string name="title_6">This text for guide information 6</string>
+    <string name="text_data6">à effectuer peut être gérée par plusieurs à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer à effectuer peut être gérée par plusieurs applications et que l\'utilisateur peut préférer applications et que l\'utilisateur peut préférer une appl</string>
+
+    <string name="admobid">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="applovineid">VtxHSA9uzRwmFTcaT4l6lZT9dBWJAWqscricBW2_R2NgRJ0tzCrHb_qxVHJT-__c6H3gmuoJ0Iz_ws8RgzXQUR</string>
+
+    <string name="App_futur1">Unlimited, free, and secure</string>
+    <string name="appfutur_Text3">V 1.2.3</string>
+    <string name="App_futur2">"The Hothit Android app is characterized by a minimalist interface designed \nchoose a proxy server from the list by pressing the bar located \nThe only downside is that, to switch between servers "</string>
+
+
+</resources>

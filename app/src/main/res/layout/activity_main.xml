@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="@color/lavender"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="20dp">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageSlider"
+            app:iss_period="1000"
+            app:iss_auto_cycle="true"
+            app:iss_corner_radius="20"
+            app:iss_title_background="@drawable/gradient"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/adsnative"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+       android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btn_start"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone">
+    </FrameLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/maxad_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/cpaimag"
+            tools:src="@tools:sample/avatars"
+            android:visibility="gone"
+            >
+
+        </ImageView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/alatsi"
+        android:text="START"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_rate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_start"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/alatsi"
+        android:text="RATE"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_privacy"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_rate"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/alatsi"
+        android:text="PRIVACY"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <androidx.cardview.widget.CardView
+    android:id="@+id/endapp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_margin="20dp"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Are you sure you want to exit?"
+            >
+        </TextView>
+        <FrameLayout
+            android:id="@+id/Nativeads"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:orientation="horizontal"
+
+            >
+            <Button
+                android:id="@+id/No"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:text="End"
+                >
+            </Button>
+            <Button
+                android:id="@+id/Yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:text="Yes"
+                >
+            </Button>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>
